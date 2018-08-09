@@ -53,7 +53,7 @@
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-ionic-webview": {},
       "cordova-plugin-network-information": {},
-    "cordova-sqlite-storage": {}
+    "cordova-plugin-sqlite": {}
     },
     "platforms": [
       "android"
