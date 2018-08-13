@@ -1,10 +1,11 @@
 import 'rxjs/add/operator/toPromise';
 import 'rxjs/Rx';
-
+import { Injectable } from "@angular/core";
 import { Headers, Http } from '@angular/http';
 import { Utils } from './utils';
 import { List } from 'ionic-angular/components/list/list';
 
+@Injectable() 
 export class OdooJsonRpc {
 
     private jsonRpcID: number = 0;
